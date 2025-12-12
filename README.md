@@ -15,7 +15,8 @@ I want a bulleted list
 * item 2
 * item 3
 
-
+A plot from class:
+![Figure from previous class](figures/cid_graphic.png)
 
 
 

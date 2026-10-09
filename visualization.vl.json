@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sophiabucklin/sophiabucklin.github.io/refs/heads/main/CPI%20INDEX%2001.1.8.3%20Chocolate%202015%3D100-091026.csv"
+  },
+  "title": {"text": "UK Chocolate Prices", "subtitle": "Source: ONS"},
+  "width": 300,
+  "height": 300,
+  "mark": {"type": "line"},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": ""},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}

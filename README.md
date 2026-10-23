@@ -1,12 +1,19 @@
 # sophiabucklin.github.io
 
-This is my PP434 repository which contains my portfolio website
+This is my new demo repository for today
 
 **Author:** Sophia Bucklin
-Last updated 23/10/2026
+Last updated 12/12/2025
 
-## Repository Contains Materials for Personal Portfolio and Class 
+## This is a subheading
 
+This is section 2
+
+I want a bulleted list
+
+* item 1
+* item 2
+* item 3
 
 A plot from class:
 ![Figure from previous class](figures/cid_graphic.png)

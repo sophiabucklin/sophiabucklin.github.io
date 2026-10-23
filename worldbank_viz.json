@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Fertility Rate: Births per Woman",
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/usa;kor;jpn/indicator/SP.DYN.TFRT.IN?format=json&per_page=1000",
+    "format":{"property": "[1]"}
+    },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"},
+    "color": {"field": "country.value", "type":"nominal", 
+    "legend": {"title": ""},
+    "scale": {"scheme": "observable10"}}
+  }
+}
